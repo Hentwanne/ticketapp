@@ -1,9 +1,48 @@
-{
-    "id": 2,
-    "name": "Camille Dupont",
-    "email": "camille.dupont@example.com",
-    "password": "$2a$12$C5c8fHoLSR3vKkCmP8bbgeAaO5DdWBRe1RhIHjM5waCA9cHb1uA7a", 
-    "last_login": "2024-12-12T10:05:00",
+[
+  {
+    "id": 1,
+    "name": "Julien Lefevre",
+    "email": "julien.lefevre@example.com",
+    "password": "$2a$12$R6k8uD5lZQ6U8bPm2Dq9Zm72H9cxFz5Ru1hC9gFZmC4dP3T.YF.Yq",
+    "last_login": "2024-12-11T08:30:00",
     "active": true,
+    "role": "Intervenant"
+  },
+  {
+    "id": 2,
+    "name": "Sophie Martin",
+    "email": "sophie.martin@example.com",
+    "password": "$2a$12$W5u8fNk7aOeJfHwJ3gYtfiHIm5c5dGhS4QXpWrxKvMnV0Egw0mu5y",
+    "last_login": "2024-12-13T14:25:00",
+    "active": false,
+    "role": "Utilisateur"
+  },
+  {
+    "id": 3,
+    "name": "Marc Dupuis",
+    "email": "marc.dupuis@example.com",
+    "password": "$2a$12$D7aXmKXytrj.3J1VZBzIS0Hcbd8hsgUct9n56ffI7cb3lFf6Pj2u2",
+    "last_login": "2024-12-14T09:00:00",
+    "active": true,
+    "role": "Intervenant"
+  },
+  {
+    "id": 4,
+    "name": "Lucie Robert",
+    "email": "lucie.robert@example.com",
+    "password": "$2a$12$C5zH7LsmPvZ9lgEr1dBby12Rp1lm8hA1ZftZkV4m1iS2FbG5hqlve",
+    "last_login": "2024-12-15T16:40:00",
+    "active": true,
+    "role": "Intervenant"
+  },
+  {
+    "id": 5,
+    "name": "Paul Dufresne",
+    "email": "paul.dufresne@example.com",
+    "password": "$2a$12$V2pK94bY6tIfMlqQBxY1.k1xY3LQnmw5iB59rz73gmLsErGHXk.Wy",
+    "last_login": "2024-12-16T10:20:00",
+    "active": false,
     "role": "Utilisateur"
   }
+]
+

@@ -1,12 +1,68 @@
-{
-    "id": 1,
-    "title": "Problème de connexion au réseau",
-    "description": "L'utilisateur ne peut pas se connecter au réseau Wi-Fi.",
-    "created_at": "2024-12-12T10:00:00",
-    "updated_at": "2024-12-12T10:30:00",
-    "impact": "Majeur",
-    "status": "Ouvert",
-    "user_id": 2,
-    "poste_id": 1,
-    "request_type": "Connexion réseau"
-  }
+
+[
+    {
+        "id": 1,
+        "title": "Problème de connexion au réseau",
+        "description": "L'utilisateur ne peut pas se connecter au réseau Wi-Fi.",
+        "created_at": "2024-12-12T10:00:00",
+        "updated_at": "2024-12-12T10:30:00",
+        "impact": "Majeur",
+        "status": "Ouvert",
+        "user_id": 2,
+        "poste_id": 1,
+        "request_type": "Connexion réseau"
+    },
+
+    {
+        "id": 2,
+        "title": "Erreur lors de l'installation du logiciel",
+        "description": "L'utilisateur rencontre une erreur lors de l'installation du logiciel XYZ sur son poste.",
+        "created_at": "2024-12-13T09:45:00",
+        "updated_at": "2024-12-13T10:15:00",
+        "impact": "mineur",
+        "status": "En cours",
+        "user_id": 3,
+        "poste_id": 2,
+        "request_type": "Installation logiciel"
+    },
+
+    {
+        "id": 3,
+        "title": "Problème de lenteur du système",
+        "description": "L'utilisateur constate une lenteur importante du système lors de l'ouverture d'applications.",
+        "created_at": "2024-12-14T14:00:00",
+        "updated_at": "2024-12-14T14:30:00",
+        "impact": "Majeur",
+        "status": "Ouvert",
+        "user_id": 4,
+        "poste_id": 3,
+        "request_type": "Performance système"
+    },
+
+    {
+        "id": 4,
+        "title": "Problème d'impression",
+        "description": "L'utilisateur ne parvient pas à imprimer depuis son poste.",
+        "created_at": "2024-12-15T11:20:00",
+        "updated_at": "2024-12-15T11:50:00",
+        "impact": "Mineur",
+        "status": "Résolu",
+        "user_id": 5,
+        "poste_id": 4,
+        "request_type": "Impression"
+    },
+
+    {
+        "id": 5,
+        "title": "Mise à jour Windows échouée",
+        "description": "L'utilisateur rencontre une erreur lors de la mise à jour de Windows 10.",
+        "created_at": "2024-12-16T08:30:00",
+        "updated_at": "2024-12-16T09:00:00",
+        "impact": "Bloquant",
+        "status": "En cours",
+        "user_id": 6,
+        "poste_id": 5,
+        "request_type": "Mise à jour système"
+    }
+]
+  
