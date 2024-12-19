@@ -1,8 +1,33 @@
-{
-    "id": 1,
-    "user_id": 2,
-    "status": "En maintenance",
-    "configuration": "Processeur Intel i5, 16 Go RAM, 500 Go SSD, Windows 10"
-  }
-  
+[
+    {
+      "id": 1,
+      "user_id": 2,
+      "status": "En maintenance",
+      "configuration": "Processeur Intel i5, 16 Go RAM, 500 Go SSD, Windows 10"
+    },
+    {
+      "id": 2,
+      "user_id": 3,
+      "status": "En fonction",
+      "configuration": "Processeur AMD Ryzen 5, 8 Go RAM, 1 To HDD, Ubuntu 22.04"
+    },
+    {
+      "id": 3,
+      "user_id": 4,
+      "status": "En commande",
+      "configuration": "Processeur Intel i7, 32 Go RAM, 1 To SSD, Windows 11"
+    },
+    {
+      "id": 4,
+      "user_id": 5,
+      "status": "En fonction",
+      "configuration": "Processeur Intel i9, 64 Go RAM, 2 To SSD, Linux Mint"
+    },
+    {
+      "id": 5,
+      "user_id": 6,
+      "status": "En maintenance",
+      "configuration": "Processeur AMD Ryzen 7, 16 Go RAM, 512 Go SSD, macOS"
+    }
+  ]
   
