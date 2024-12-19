@@ -1,0 +1,203 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="enums" version="4">
+  <OBJECT>
+    <ID name="enums" mc="Standard.Package" uid="696cec7b-d68c-4e8c-9d77-143e22145d0b"/>
+    <PID name="models" mc="Standard.Package" uid="669c50f5-1093-4244-8bf0-60c97748cbb5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[enums]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <OBJECT>
+          <ID name="IMPACT" mc="Standard.Enumeration" uid="b9c0310d-1914-4fc6-b5cb-b6bb78fa11db"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[IMPACT]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="BLOQUANT" mc="Standard.EnumerationLiteral" uid="bd54e1c3-beab-49f6-937d-7853728eadd6"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[BLOQUANT]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="MAJEUR" mc="Standard.EnumerationLiteral" uid="0a2b19e2-24ee-4aaa-bbdd-1c713e199f97"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[MAJEUR]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="MINEUR" mc="Standard.EnumerationLiteral" uid="8f433183-0ba4-42e9-bf37-0f9cc729584f"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[MINEUR]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="ETAT_TICKET" mc="Standard.Enumeration" uid="a6106ce7-d8cf-4b38-ac05-775b3c15e15d"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[ETAT_TICKET]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="OUVERT" mc="Standard.EnumerationLiteral" uid="dc026494-9ba9-45d5-9744-cd288ba23597"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[OUVERT]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="EN_COURS" mc="Standard.EnumerationLiteral" uid="ecc023bf-dbe1-4e04-9464-a3e3da8cb0b1"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[EN_COURS]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="RESOLU" mc="Standard.EnumerationLiteral" uid="4d8c488f-71c2-4ccc-8305-8b68673ea97b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[RESOLU]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="FERME" mc="Standard.EnumerationLiteral" uid="6266cd73-120b-4b0f-bbe4-55745d861cbb"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[FERME]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="ANNULE" mc="Standard.EnumerationLiteral" uid="4003903e-8a8f-4763-8f3e-b31f8816822c"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[ANNULE]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="ETAT_POSTE" mc="Standard.Enumeration" uid="bac1582d-2ef3-42e8-970f-8931ba351f9f"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[ETAT_POSTE]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="EN_FONCTION" mc="Standard.EnumerationLiteral" uid="ea439205-b0a7-4be6-ab79-0724e4baede6"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[EN_FONCTION]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="EN_MAINTENANCE" mc="Standard.EnumerationLiteral" uid="4f433a15-1781-41da-bc89-347d9577a76d"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[EN_MAINTENANCE]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="EN_COMMANDE" mc="Standard.EnumerationLiteral" uid="1276e78c-ef33-4b84-903e-db453127de81"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[EN_COMMANDE]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="ROLE" mc="Standard.Enumeration" uid="b264a494-8a0a-4537-b172-d59c2fdf08ba"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[ROLE]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="Utilisateur" mc="Standard.EnumerationLiteral" uid="60031d06-85bb-4ec9-871e-0282210ef7da"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Utilisateur]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Intervenant" mc="Standard.EnumerationLiteral" uid="418f3e36-4b28-4cbe-a0d8-e4d130b8072f"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Intervenant]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

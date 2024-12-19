@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="interfaces" version="4">
+  <OBJECT>
+    <ID name="interfaces" mc="Standard.Package" uid="741f25b6-449b-4837-ab45-e160d6af61ed"/>
+    <PID name="fr.isen.ticketapp" mc="Standard.Package" uid="b56cfb5c-d811-4de3-a20c-e47c42e92e53"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[interfaces]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="models" mc="Standard.Package" uid="669c50f5-1093-4244-8bf0-60c97748cbb5"/>
+        <COMPID name="services" mc="Standard.Package" uid="2cd80fef-4658-4f6a-a237-c0ec381d5220"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

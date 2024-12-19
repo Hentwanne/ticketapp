@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="models" version="4">
+  <OBJECT>
+    <ID name="models" mc="Standard.Package" uid="669c50f5-1093-4244-8bf0-60c97748cbb5"/>
+    <PID name="interfaces" mc="Standard.Package" uid="741f25b6-449b-4837-ab45-e160d6af61ed"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[models]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="TicketModel" mc="Standard.Class" uid="d8c56cb6-c67c-426f-b2ea-18a40d717577"/>
+        <COMPID name="enums" mc="Standard.Package" uid="696cec7b-d68c-4e8c-9d77-143e22145d0b"/>
+        <COMPID name="UserModel" mc="Standard.Class" uid="d04dda09-aacb-451c-8dca-e6e0327659eb"/>
+        <COMPID name="PosteInformatique" mc="Standard.Class" uid="d1c2c6df-8b7f-481e-be6f-63284d41cee3"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de classe models" mc="Standard.ClassDiagram" uid="c57b124f-0e71-4c56-827b-cd132cf3fef1"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

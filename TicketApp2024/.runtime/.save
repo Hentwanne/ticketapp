@@ -1,0 +1,6 @@
+#Thu Dec 19 10:19:14 CET 2024
+org.modelio.app.module.propertytab.GModule\ [id\='JavaDesigner',\ version\='5.4.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_.org.modelio.full.perspective.parentId=app.ui.ext_com.partstack.bottom
+org.modelio.app.diagram.editor.OpenedDiagrams0='Diagramme de classe models' {c57b124f-0e71-4c56-827b-cd132cf3fef1} Standard.ClassDiagram
+org.modelio.app.module.propertytab.GModule\ [id\='JavaDesigner',\ version\='5.4.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_.org.modelio.development.perspective.parentId=app.ui.ext_com.partstack.bottom
+org.modelio.app.module.propertytab.GModule\ [id\='JavaDesigner',\ version\='5.4.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_.org.modelio.app.ui.model.perspective.parentId=org.modelio.app.bottom.parts
+org.modelio.app.module.propertytab.GModule\ [id\='JavaDesigner',\ version\='5.4.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_.org.modelio.diagram.perspective.parentId=app.ui.ext_com.partstack.right

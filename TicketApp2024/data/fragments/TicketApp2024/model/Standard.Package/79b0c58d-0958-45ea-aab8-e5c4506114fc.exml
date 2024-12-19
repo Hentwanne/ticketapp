@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Services" version="4">
+  <OBJECT>
+    <ID name="Services" mc="Standard.Package" uid="79b0c58d-0958-45ea-aab8-e5c4506114fc"/>
+    <PID name="interfaces" mc="Standard.Package" uid="741f25b6-449b-4837-ab45-e160d6af61ed"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Services]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="TicketServices" mc="Standard.Interface" uid="53c52be7-5dac-4476-b060-2f10a428af98"/>
+        <COMPID name="Devices" mc="Standard.Interface" uid="39682ddd-9533-4563-ba2c-8b4a92bf7be9"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

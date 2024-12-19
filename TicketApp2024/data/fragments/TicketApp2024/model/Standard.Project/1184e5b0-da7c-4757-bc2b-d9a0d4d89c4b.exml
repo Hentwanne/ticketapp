@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="TicketApp2024" version="4">
+  <OBJECT>
+    <ID name="TicketApp2024" mc="Standard.Project" uid="1184e5b0-da7c-4757-bc2b-d9a0d4d89c4b"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[TicketApp2024]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="ticketapp2024" mc="Standard.Package" uid="d032cec4-9c40-40c4-a932-4a72843a00c6"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="TicketApp2024" mc="Infrastructure.DiagramSet" uid="5b087018-427f-4eb3-8cda-2bcc0cf010f9"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
